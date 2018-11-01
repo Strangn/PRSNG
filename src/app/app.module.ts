@@ -18,6 +18,11 @@ import { VendorDetailComponent } from './vendor/vendor-detail/vendor-detail.comp
 import { VendorCreateComponent } from './vendor/vendor-create/vendor-create.component';
 import { VendorEditComponent } from './vendor/vendor-edit/vendor-edit.component';
 import { BoolDisplayPipe } from './pipes/bool-display.pipe';
+import { SortUsersPipe } from './pipes/sort-users.pipe';
+import { ProductListComponent } from './product/product-list/product-list.component';
+import { ProductEditComponent } from './product/product-edit/product-edit.component';
+import { ProductDetailComponent } from './product/product-detail/product-detail.component';
+import { ProductCreateComponent } from './product/product-create/product-create.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +39,12 @@ import { BoolDisplayPipe } from './pipes/bool-display.pipe';
     VendorDetailComponent,
     VendorCreateComponent,
     VendorEditComponent,
-    BoolDisplayPipe
+    BoolDisplayPipe,
+    SortUsersPipe,
+    ProductListComponent,
+    ProductEditComponent,
+    ProductDetailComponent,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,

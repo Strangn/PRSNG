@@ -25,9 +25,9 @@ const routes: Routes = [
   { path: "users/detail/:id", component: UserDetailComponent },
   { path: "users/edit/:id", component: UserEditComponent },
 
-  { path: "vendors/list/", component: VendorEditComponent },
-  { path: "vendors/detail/:id", component: VendorEditComponent },
-  { path: "vendors/create/", component: VendorEditComponent },
+  { path: "vendors/list/", component: VendorListComponent },
+  { path: "vendors/detail/:id", component: VendorDetailComponent },
+  { path: "vendors/create/", component: VendorCreateComponent },
   { path: "vendors/edit/:id", component: VendorEditComponent },
 
   { path: "home", component: HomeComponent },
